@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Setting up touchpad configuration"
+
+
+xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1
+xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Natural Scrolling Enabled" 1
+
+xinput set-prop "Synaptics TM2722-001" "libinput Tapping Enabled" 1
+xinput set-prop "Synaptics TM2722-001" "libinput Natural Scrolling Enabled" 1
+
+echo "Finished setting up touchpad"
